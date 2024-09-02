@@ -25,12 +25,7 @@
     "immer",
     "immutable",
     "state management",
-    "state management library",
-    "state management library for javascript",
-    "state management library for typescript",
-    "state management library for javascript and typescript",
-    "state management library for javascript and typescript with immer.js",
-    "state management library for javascript and typescript with immer.js for state immutability"
+    "state management library"
   ],
   "scripts": {
     "dev": "vite",
