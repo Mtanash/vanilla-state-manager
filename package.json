@@ -1,9 +1,9 @@
 {
-  "name": "vanillastate",
+  "name": "vanilla-state-manager",
   "version": "1.0.0",
   "type": "module",
-  "main": "dist/vanillastate.umd.js",
-  "module": "dist/vanillastate.es.js",
+  "main": "dist/vanilla-state-manager.umd.js",
+  "module": "dist/vanilla-state-manager.es.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"

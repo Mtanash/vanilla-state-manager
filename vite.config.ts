@@ -5,8 +5,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: "./src/index.ts",
-      name: "vanillastate",
-      fileName: (format) => `vanillastate.${format}.js`,
+      name: "vanilla-state-manager",
+      fileName: (format) => `vanilla-state-manager.${format}.js`,
     },
     rollupOptions: {
       external: ["immer"],
