@@ -1,6 +1,6 @@
 {
   "name": "vanilla-state-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/vanilla-state-manager.umd.js",
   "module": "dist/vanilla-state-manager.es.js",
