@@ -1,0 +1,55 @@
+{
+  "name": "@mtanash/vanillastate",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/@mtanash/vanillastate.umd.js",
+  "module": "dist/@mtanash/vanillastate.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "immer": "^10.1.1"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Mohamed Tanash",
+    "email": "mohamedtanash104@gmail.com",
+    "url": "https://github.com/Mtanash"
+  },
+  "description": "Javascript/Typescript state management library that uses Immer.js behind the scenes to handle state immutability",
+  "keywords": [
+    "state",
+    "javascript",
+    "typescript",
+    "immer",
+    "immutable",
+    "state management",
+    "state management library",
+    "state management library for javascript",
+    "state management library for typescript",
+    "state management library for javascript and typescript",
+    "state management library for javascript and typescript with immer.js",
+    "state management library for javascript and typescript with immer.js for state immutability"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prepublishOnly": "npm run build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "lint": "oxlint src",
+    "lint:fix": "oxlint src --fix",
+    "publish": "npm run lint && npm run test && npm run build && npm publish --access public"
+  },
+  "devDependencies": {
+    "oxlint": "^0.9.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vite-plugin-dts": "^4.1.0",
+    "vitest": "^2.0.5"
+  },
+  "dependencies": {
+    "immer": "^10.1.1"
+  }
+}
