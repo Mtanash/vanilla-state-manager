@@ -1,9 +1,9 @@
 {
-  "name": "@mtanash/vanillastate",
+  "name": "vanillastate",
   "version": "1.0.0",
   "type": "module",
-  "main": "dist/@mtanash/vanillastate.umd.js",
-  "module": "dist/@mtanash/vanillastate.es.js",
+  "main": "dist/vanillastate.umd.js",
+  "module": "dist/vanillastate.es.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
