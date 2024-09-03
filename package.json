@@ -27,6 +27,11 @@
     "state management",
     "state management library"
   ],
+  "homepage": "https://github.com/Mtanash/vanilla-state-manager",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mtanash/vanilla-state-manager.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
