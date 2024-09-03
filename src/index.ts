@@ -25,7 +25,12 @@ class StateManager<T> {
         "Updater function cannot be null or undefined"
       );
     }
-    this.state = produce(this.state, updater);
+    const nextState = produce(this.state, updater);
+    if (nextState === this.state) {
+      return;
+    }
+
+    this.state = nextState;
     this.notifyListeners();
   }
 
