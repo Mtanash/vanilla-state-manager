@@ -1,5 +1,3 @@
-Here is the updated documentation:
-
 # Vanilla State Manager
 
 ### Overview
